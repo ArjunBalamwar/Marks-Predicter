@@ -28,4 +28,4 @@ print(f"Intercepts: {linear.intercept_}")
 prediction = linear.predict(x_test)
 
 for x in range(len(prediction)):
-    print(round(prediction[x]), x_test[x], y_test[x])
+    print("Prediction:",round(prediction[x]), "Actual marks:", y_test[x])
